@@ -1,0 +1,75 @@
+@media screen and (max-width:700px){
+    .nav-container,.nav-items-container {
+       flex-direction: column;
+    }
+    .nav-items-container a{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .nav-items-container .login-btn{
+        width: 100%;
+        margin-bottom:10px;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-img,.banner-text{
+        width: 100%;
+        margin-bottom: 20px;
+        
+
+    }
+    .banner-text h1{
+        font-size: 1rem;
+    }
+    .banner-text p{
+        font-size: 0.6rem;
+    }
+    .fa-brands{
+        font-size: 20px;
+
+
+    }
+    .grid-container{
+       grid-template-columns: repeat(2,1fr); 
+    }
+}
+@media screen and (max-width:400px){
+    .nav-container,.nav-items-container,.discount-container {
+       flex-direction: column;
+    }
+    .nav-items-container a{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .nav-items-container .login-btn{
+        width: 100%;
+        margin-bottom:10px;
+    }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-img,.banner-text{
+        width: 100%;
+        margin-bottom: 20px;
+        
+
+    }
+    .banner-text h1{
+        font-size: 1rem;
+    }
+    .banner-text p{
+        font-size: 0.6rem;
+    }
+    .fa-brands{
+        font-size: 20px;
+
+
+    }
+    .grid-container{
+       grid-template-columns: 1fr; 
+    }
+    .discount-img{
+        width: 100%;
+    }
+}
